@@ -49,12 +49,10 @@ class BrodenDataset:
         self.broden_dataset_info = "./meta_file"
         self.record_list = {"train": [], "validation": []}
         self.record_list['train'].append(get_records(
-            os.path.join(self.broden_dataset_info, "broden_ade20k_pascal_train.json")))
-        self.record_list['train'].append(get_records(
-            os.path.join(self.broden_dataset_info, 'broden_os_train.json')))
+            os.path.join(self.broden_dataset_info, "ade20k_train.json")))
+
         self.record_list['validation'] = \
-                get_records(os.path.join(self.broden_dataset_info, "broden_ade20k_pascal_val.json")) + \
-                get_records(os.path.join(self.broden_dataset_info, 'broden_os_val.json'))
+                get_records(os.path.join(self.broden_dataset_info, "ade20k_val.json"))
 
         """ recover object, part, scene, material and texture. """
 

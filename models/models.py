@@ -64,9 +64,7 @@ class SegmentationModule(SegmentationModuleBase):
         if seg_size is None: # training
 
             if feed_dict['source_idx'] == 0:
-                output_switch = {"object": True, "part": True, "scene": True, "material": False}
-            elif feed_dict['source_idx'] == 1:
-                output_switch = {"object": False, "part": False, "scene": False, "material": True}
+                output_switch = {"object": True, "part": True, "scene": False, "material": False}
             else:
                 raise ValueError
 

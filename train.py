@@ -158,7 +158,7 @@ def adjust_learning_rate(optimizers, cur_iter, args):
 
 
 def create_multi_source_train_data_loader(args):
-    training_records = broden_dataset.record_list['train']
+    training_records = broden_dataset.record_list['train'][0]
 
     # 0: object, part, scene
     # 1: material

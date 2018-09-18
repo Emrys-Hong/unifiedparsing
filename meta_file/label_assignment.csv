@@ -654,13 +654,13 @@ ade20k,object,770,dolmens,0,-
 ade20k,object,771,dolphin,0,-
 ade20k,object,772,dome,0,-
 ade20k,object,773,donkey,0,-
-ade20k,object,774,door,16,door
+ade20k,object,774,door;double door,16,door
 ade20k,object,775,door bars,0,-
 ade20k,object,777,doorbell,0,-
 ade20k,object,778,doorframe;doorcase,148,doorframe
 ade20k,object,780,doorway arch,0,-
 ade20k,object,782,dormer;dormer window,0,-
-ade20k,object,783,double door,16,door
+ade20k,object,783,door;double door,16,door
 ade20k,object,784,drain,0,-
 ade20k,object,785,drain pipe,0,-
 ade20k,object,786,drain plug,0,-
@@ -737,7 +737,7 @@ ade20k,object,863,envelope,0,-
 ade20k,object,864,envelopes,0,-
 ade20k,object,866,equestrian obstacle,0,-
 ade20k,object,867,equipment,313,equipment
-ade20k,object,868,escalator;moving staircase;moving stairway,0,-
+ade20k,object,868,escalator;moving staircase;moving stairway,-1,escalator
 ade20k,object,869,escarpment,0,-
 ade20k,object,870,estuary,0,-
 ade20k,object,871,excavator,0,-
